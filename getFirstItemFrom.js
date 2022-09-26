@@ -1,5 +1,8 @@
-const prompt = require('prompt-sync')({sigint: true});
+const prompt = require('prompt-sync')({ sigint: true });
 
-let array = ["John", "David", "Kate"]
-       
+let array = JSON.parse(prompt("Enter an array: "))
+
+
 console.log(array[0])
+
+//["John", "David", "Kate"]
